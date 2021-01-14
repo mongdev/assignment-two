@@ -1,0 +1,38 @@
+.card-footer-customCSS {
+  border: 0;
+  background-color: transparent;
+}
+.card-footer button {
+  background-color: #020079;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+#button-customize {
+  background-color: #020079;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.card-footer h3 {
+  font-weight: bold;
+  color: orangered;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-reverse-part {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+footer {
+  padding: 1% 10%;
+  background-color: rgb(83, 82, 82);
+}
+footer a {
+  color: white;
+  margin: 10 20px;
+  padding-left: 15px;
+}
+footer a:hover {
+  color: black;
+}
